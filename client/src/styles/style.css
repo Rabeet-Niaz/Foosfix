@@ -1,5 +1,6 @@
 /* FoosFix design system: minimalistic, mint and green */
 :root {
+  --card: #F3EED2;
   --bg: #BAE1CC;
   --primary: #2E7D4F;
   --secondary: #1F3D2D;
@@ -247,3 +248,8 @@ svg {
 .desc, .ac p { white-space: pre-wrap; overflow-wrap: anywhere; }
 
 .send:disabled, .seg button:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* request cards (public list and admin list) */
+.list .card { background: var(--card); }
+/* home page boxes */
+.tile { background: var(--card); }

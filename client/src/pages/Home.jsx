@@ -61,7 +61,13 @@ export default function Home() {
       </nav>
 
       <footer className="credit">
-        Created by <a href="#">[Your Name]</a>
+        Created by <a
+          href="https://www.linkedin.com/in/rabeet-niaz-8b659039a/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Rabeet Niaz
+        </a>
       </footer>
     </main>
   );
