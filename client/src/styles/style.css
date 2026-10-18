@@ -245,3 +245,5 @@ svg {
 .photo a { display: block; width: 100%; height: 100%; }
 .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .desc, .ac p { white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.send:disabled, .seg button:disabled { opacity: 0.45; cursor: not-allowed; }

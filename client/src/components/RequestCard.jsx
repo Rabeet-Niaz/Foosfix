@@ -6,7 +6,7 @@ const STATUS = {
   cant_fix: { label: "Can't fix", cls: "cant" },
 };
 
-export default function RequestCard({ request }) {
+export default function RequestCard({ request, showRoll = false, children }) {
   const status = STATUS[request.status];
 
   return (
@@ -18,6 +18,7 @@ export default function RequestCard({ request }) {
 
       <div className="meta">
         {formatDateTime(request.createdAt)} &middot; {request.table?.name}
+        {showRoll && <> &middot; {request.rollNo || "No roll number"}</>}
       </div>
 
       <p className="desc">{request.description}</p>
@@ -41,6 +42,8 @@ export default function RequestCard({ request }) {
           <small>{formatDateTime(comment.createdAt)}</small>
         </div>
       ))}
+
+      {children}
     </article>
   );
 }
