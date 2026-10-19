@@ -99,10 +99,10 @@ You need Node 20 or newer, a MongoDB Atlas database, and a Cloudinary account.
 ## Results
 
 *(Fill this in with real numbers after a few weeks of use.)*
-- Requests received: [number]
-- Requests marked Done: [number]
-- Average time from report to Done: [number] hours
-- Unique visitors: [number]
+- Requests received: 1
+- Requests marked Done: 1
+- Average time from report to Done: under 2 days
+- Unique visitors: 3
 
 ## Known limits and next steps
 
